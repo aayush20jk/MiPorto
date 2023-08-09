@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush</title>
+    <link rel="shortcut icon" href="asset/kai.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="navbar-left">
+                <div class="navbar-item"><a class="link" onclick="scrollToSection('home')"">aayush kumar jha</a></div>
+            </div>
+            <div class="navbar-right">
+                <div class="navbar-item"><a class="link" onclick="scrollToSection('home')">home</a></div>
+                <div class="navbar-item"><a class="link" onclick="scrollToSection('about')">about</a></div>
+                <div class="navbar-item"><a class="link" onclick="scrollToSection('project')">project</a></div>
+                <div class="navbar-item"><a class="link" onclick="scrollToSection('contact')">contact</a></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 class="heading-primary">hey, i'm aayush kumar jha</h1>
+            <div class="home-info">
+                <p class="text-primary">
+                    Tell me... Is it slavery when you get what you want ?
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="main-container">
+            <h2 class="heading__">
+                <span class="heading-sec__main">
+                    About Me
+                    <hr>
+                </span>
+                <span class="heading-sec__sub">
+                    If you can't do something, then don't. Focus on what you can do
+                </span>
+            </h2>
+        </div>
+
+        <div class="about-elements">
+            <div class="about-me">
+                <img class="tile-image" id="vegeta" src="asset/saiyan-vegeta.gif" alt="">
+                <h2 class="card-title">Me?</h2>
+                <p class="card-text">
+                    Hmph! In this mundane realm of academia, I, Aayush, a pre-final year student from VIT, Chennai, stand tall! With Saiyan pride coursing through my veins, I'm on an unyielding quest to master the art of software engineering. Challenges? They mean nothing to me! With my intellect and determination, I crush every coding obstacle, ascending to become the mighty Software Engineer!
+                </p>
+            </div>
+
+            <div class="about-me">
+                <img class="tile-image" id="goku" src="asset/saiyan-goku.gif" alt="">
+                <h2 class="card-title">What do i know?</h2>
+                <p class="card-text">
+                    <p class="card-text">
+                        Ha! My skills are unmatched! I, Aayush, boast proficiency in the mighty arts of Problem Solving and Data Structures & Algorithms. With my Saiyan intellect, I conquer the realms of C++, HTML, CSS, and JS. Harnessing the power of Git, I navigate the ever-changing code battlefield. Even the complexities of Linux bend to my will. And when it comes to taming data, I am a master of SQL! Nothing can stand in my way as I soar higher, ascending to new heights!
+                    </p>
+                </p>
+            </div>
+    </section>
+
+    <section class="project" id="project">
+        <div class="main-container">
+            <h2 class="heading__">
+                <span class="heading-sec__main">
+                    project(s)
+                    <hr>
+                </span>
+                <span class="heading-sec__sub">
+                    The future belongs to those who believe in the beauty of their dreams
+                </span>
+            </h2>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="main-container" id="min_margin">
+            <h2 class="heading__">
+                <span class="heading-sec__main">
+                    sauce
+                    <span class="heading-sec__sub">
+                        links to other profiles
+                    </span>
+                    <hr>
+                </span>
+                <span class="heading-sec__sub">
+                    nice to meet ya ! check my other profiles
+                </span>
+
+                <div class="social-icons">
+                    <a href="https://github.com/aayush20jk">
+                        <i class="fab fa-github">github</i>
+                    </a>
+                    <a href="https://leetcode.com/aayush20jk">
+                        <i class="fas fa-terminal">leetcode</i>
+                    </a>
+                    <a href="mailto:aayushkumar.jha2001@gmail.com">
+                        <i class="fas fa-envelope">email</i>
+                    </a>
+                    <a href="https://www.instagram.com/oi_aayush">
+                        <i class="fab fa-instagram">insta</i>
+                    </a>
+                </div> 
+            </h2>
+        </div>   
+        
+        <footer class="footer">
+            <p class="footer-text">Made with ❤️ by Aayush</p>
+        </footer>
+    </section>
+    
+</body>
+</html>
